@@ -11,7 +11,7 @@ function saveNameHandle(event) {
 }
 
 function saveName(currentName) {
-  console.log("loadName", input.value);
+  // console.log("loadName", input.value);
   localStorage.setItem("Name", input.value);
 }
 
@@ -27,7 +27,7 @@ function clearFn() {
     btn = document.createElement("button");
   btn.innerHTML = "clear and push F5";
   btn.addEventListener("click", function(e) {
-    console.log("t");
+    // console.log("t");
     localStorage.clear();
   });
   stag.appendChild(btn);

@@ -27,7 +27,7 @@ function paintToList(text) {
 
   toDosArray.push(toDosObj); // [{id, list}]
 
-  console.log("toDOs:", toDosObj);
+  // console.log("toDOs:", toDosObj);
   saveToDos();
 }
 
